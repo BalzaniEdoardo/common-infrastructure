@@ -1,0 +1,18 @@
+- data format vs data stardand: what does define a standard? unclear defs and boundaries
+- storage backends are formats, hdf5, json etc., schemas should be decoupled from the backend. schemas does not fit all necessities. Onthology defines what a field actually is. in neuroscience there is less consensus on which ontology to pick, the atlases are different across spices etc. building ontologyies is too hard, as end user we care about what should I use, i don't want to navigate the entire onthology. data standards should integrate ontologies. agreeing on ontologies means agreeing on a common language, which is hard. but we can use standard atlases and common resources. sometimes we have more than one, we cannot enforce the use one over the other. you could reccomend one or the other. Deaults vs optional vs mandate? how do you decide? the more flexible the more fuzzy the data. the more inflexible the slower implementation and analysis.
+- no fundings to integrates across standards (nwb and bids for example).
+- standards assure that the same data can be used by other in different system
+- data storage: files and type of files, how do I extract the file correctly, how do i know that two files are the same but under different formats? metadata could help, but how do you open a file? no way around code, you need a schema that is understood. the storage format is determined by the technical needs of the archive, so it is important to agree upon how we structure data, the schema, then you can change backends for different storage. 
+- format may be part of a standard but is less seminal than a schema, you could interact with different formats with the same underling understood schema
+- API is it a part of the standard? sometimes you need to define strictly components of the standards (if they do not exist for example) sometimes you need to use existing standards (hdf5). formats don't define schemas, vocabularies, etc.
+- problems on standards:
+  - vocabularies are fuzzy mostly
+  - schemas could be inconsistent and hard to integrate (BIDS had a word doc as schema for a while)
+  - format is still an open quesiton, what backend zarr hdf5? you can have potentially multiple covered formats whithin a standard. how cleanly can you abstract away a format? abstraction needs to interact, so your software becomes complex (high maintenace, cost time/money)
+  - we don't have a standard format from the get-go
+- issues: 
+  - state of metadata? how do you pose it as a well defined question? 
+  - improve metadata and ontology?
+  - what do we find useful to describe minimally the data? what i need to open and understand the data. what is the cutoff? we don't agree yet on what is constitute minimal metadata? what is the perspective on user of shared data? what do the user need? information required is at least the one included in grant application papers etc. 
+  - how to incentives scientists to record metadata? how to improve.
+  - what is proper?
