@@ -36,16 +36,6 @@ Few slides of introduction about:
 
 Explore what could be the bareers preventing an infrastructure from becoming widely adoptable.
 
-**Financial Barriers**
-- Are there high costs associated with adopting or maintaining platform?
-- Are there cheaper or open-source alternatives that labs are using?
-- Is there a perception that the platform doesn't offer value for its cost?
-
-**Trust and Data Security**
-- Are labs concerned about the security of their data on the platform?
-- Are there clear guidelines and measures on data privacy and user rights?
-
-
 ## Concluding Remarks
 - Recap of the primary challenges identified and solutions discussed.
 - Action items: Steps to be taken after the session, responsibilities, and timelines.
@@ -56,6 +46,16 @@ Explore what could be the bareers preventing an infrastructure from becoming wid
 
 ## Included in slides
 
+
+**Financial Barriers**
+- Are there high costs associated with adopting or maintaining platform?
+- Are there cheaper or open-source alternatives that labs are using?
+- Is there a perception that the platform doesn't offer value for its cost?
+
+**Trust and Data Security**
+- Are labs concerned about the security of their data on the platform?
+- Are there clear guidelines and measures on data privacy and user rights?
+
 **Customization and Flexibility**
 - Can labs customize the platform to suit their specific needs, or is it a "one-size-fits-all" solution?
 - How easy is it to integrate the platform with other tools or workflows already in use by the labs?
@@ -65,13 +65,14 @@ Explore what could be the bareers preventing an infrastructure from becoming wid
 - Is there sufficient documentation, tutorials, and community support?
 - Is the platform accessible for labs with limited computational resources or without specific technical expertise?
 
+**Feedback Loop**
+- Is there a mechanism for users to provide feedback and suggestions for the platform?
+- How responsive is the platform's development or support team to user needs and concerns?
+- How do you provide support, Q&As, etc. efficiently with limited resources (few maintainers/comunity manager)?
+
 ## I think unrelated to *infrastructure* 
 
 **Incentives and Recognition**
 - Is there sufficient academic or institutional recognition for labs that contribute to or adopt the platform?
 - Are there clear benefits (e.g., easier collaborations, more citations) for using the platform?
 
-**Feedback Loop**
-- Is there a mechanism for users to provide feedback and suggestions for the platform?
-- How responsive is the platform's development or support team to user needs and concerns?
-- How do you provide support, Q&As, etc. efficiently with limited resources (few maintainers/comunity manager)?
