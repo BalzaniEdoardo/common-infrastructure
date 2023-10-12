@@ -1,0 +1,7 @@
+\babel@toc {english}{}
+\beamer@sectionintoc {1}{The Software Stack}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{What are you actually using?}{2}{0}{1}
+\beamer@sectionintoc {2}{Denial}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Can you make this complexity go away?}{5}{0}{2}
+\beamer@sectionintoc {3}{Acceptance}{7}{0}{3}
+\beamer@subsectionintoc {3}{1}{Can you benefit from an interconnected software stack?}{7}{0}{3}

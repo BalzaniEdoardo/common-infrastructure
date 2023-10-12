@@ -1,0 +1,50 @@
+\documentclass[xcolor=table,aspectratio=169,dvipsnames]{beamer}
+\usepackage{bm}
+\usepackage[OT1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{tgheros}
+\usepackage{color}
+\usepackage{caption}
+\captionsetup[figure]{labelformat=empty}
+\setbeamertemplate{bibliography item}{\insertbiblabel}
+
+\setbeamersize{text margin left=0.8em,text margin right=0.8em}
+
+\usecolortheme[RGB={175,175,175}]{structure}
+\usetheme{Dresden}
+
+\newenvironment{figurehere}
+{\def\@captype{figure}}
+{}
+\makeatother
+
+\definecolor{dy}{RGB}{202,202,0}
+\definecolor{dy}{RGB}{202,202,0}
+\definecolor{lb}{HTML}{6699ee}
+\definecolor{mg}{gray}{0.30}
+\definecolor{tlg}{gray}{0.88}
+\definecolor{slg}{gray}{0.30}
+\definecolor{lg}{gray}{0.60}
+\definecolor{vlg}{gray}{0.78}
+\definecolor{myorange}{HTML}{FF6600}
+\definecolor{mygreen}{HTML}{75CC3F}
+\definecolor{cerulean}{HTML}{80DDFF}
+\definecolor{cerulean_dark}{HTML}{33C9FF}
+
+\setbeamercolor{caption name}{fg=lg}
+\setbeamercolor{caption}{fg=lg}
+\setbeamercolor{author}{fg=lg}
+\setbeamercolor{institute}{fg=lg}
+\setbeamercolor{date}{fg=lg}
+\setbeamercolor{title}{fg=mg}
+\setbeamertemplate{caption}{\centering\insertcaption\par}
+\setbeamertemplate{navigation symbols}{}
+
+\newcommand\fullwidth[1]{%
+\makebox[\linewidth][c]{%
+  \begin{minipage}{\dimexpr\paperwidth\relax}
+  \raggedright#1
+  \end{minipage}%
+  }%
+}

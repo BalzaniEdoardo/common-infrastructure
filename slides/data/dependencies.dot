@@ -1,0 +1,36 @@
+digraph graphname {
+    # lala
+    size="10,26";
+    rankdir="TB";
+    graph [pad="0.07", fontname = "sans"];
+    node [fontname ="sans", fillcolor=grey93, style=filled, color="#BBBBBB", shape=box];
+    edge [fontname ="sans", color=gray50];
+    a[label="SpikeInterface", fillcolor="#7DE6E6", fontcolor="#FFFFFF", color="#7DE6E6"];
+    b[label="SciPy", fillcolor="#7c53b0", color="#7c53b0", fontcolor="#FFFFFF"];
+    c[label="threadpoolctl", fillcolor="#7c53b0", color="#7c53b0", fontcolor="#FFFFFF"];
+    d[label="lxml", fillcolor="#7c53b0", color="#7c53b0", fontcolor="#FFFFFF"];
+    e[label="tqdm", fillcolor="#7c53b0", color="#7c53b0", fontcolor="#FFFFFF"];
+    f[label="NumPy", fillcolor="#7c53b0", color="#7c53b0", fontcolor="#FFFFFF"];
+    g[label="cython", fillcolor=grey93];
+    h[label="...", fillcolor=grey93];
+    i[label="CBLAS", fillcolor=grey93];
+    j[label="LAPACK"];
+    0[label="libxml2"];
+    1[label="..."];
+    2[label="..."];
+    3[label="..."];
+    4[label="..."];
+
+    a -> {b; c; d; e; f};
+    b -> {f; g;};
+    g -> {h;};
+    c -> {g;};
+    f -> {i; j};
+    d -> 0;
+    e -> 1;
+    0 -> {2; 4};
+    1 -> {3; 4};
+
+    {rank=same; b; c; d; e; }
+    {rank=same; f; g;}
+}

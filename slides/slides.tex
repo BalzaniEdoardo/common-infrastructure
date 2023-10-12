@@ -1,0 +1,79 @@
+\input{slides/header.tex}
+\input{common_header.tex}
+
+\title{Infrastructure}
+\author[Horea Christian]{Horea Christian \\\href{http://chymera.eu}{\small\texttt{[ chymera.eu ]}}}
+\institute{Center for Open Neuroscience, Dartmouth College}
+\begin{document}
+	\begin{frame}
+		\titlepage
+	\end{frame}
+	\section{The Software Stack}
+		\subsection{What are you actually using?}
+			\begin{frame}{Probably more than you think.}
+				\begin{figure}
+					\centering
+					\includedot[width=0.63\textwidth]{data/_dependencies}
+				\end{figure}
+			\end{frame}
+			\begin{frame}{Probably more interconnected than you think.}
+				\begin{figure}
+					\centering
+					\includedot[width=0.63\textwidth]{data/dependencies}
+				\end{figure}
+			\end{frame}
+			\begin{frame}{Probably \textit{much} more complex than you think.}
+				\begin{figure}
+					\centering
+						\includegraphics[width=0.4\textwidth]{img/maxdeps_s.png}
+				\end{figure}
+			\end{frame}
+	\section{Denial}
+		\subsection{Can you make this complexity go away?}
+			\begin{frame}{No, but you can make it worse.}
+				\begin{figure}
+					\centering
+					\includedot[width=0.63\textwidth]{data/containers}
+				\end{figure}
+				\vspace{-2.5em}
+				\begin{itemize}
+					\item Now you have three clocks and don't know what time it is.
+				\end{itemize}
+			\end{frame}
+			\begin{frame}{And not just with respect to details.}
+				\vspace{-.5em}
+				\begin{figure}
+					\captionsetup{justification=centering}
+					\centering
+						\includegraphics[width=0.66\textwidth]{img/py39.png}
+				\end{figure}
+				\vspace{-1em}
+				\begin{itemize}
+					\item \textcolor{lb}{But good solutions are irresistible.}
+				\end{itemize}
+			\end{frame}
+	\section{Acceptance}
+		\subsection{Can you benefit from an interconnected software stack?}
+			\begin{frame}{Key Discussion Items}
+				\begin{minipage}{.35\textwidth}
+					Concepts:
+					\begin{itemize}
+						\item distributed workload;
+						\item testing and sustainability;
+						\item access and transparency;
+						\item adaptability;
+						\item resource integration;
+					\end{itemize}
+				\end{minipage}
+				\begin{minipage}{.56\textwidth}
+					Questions:
+					\begin{itemize}
+						\item What infrastructure do you use?
+						\item How do you manage your software stack?
+						\item Do you benefit from controlling your environment?
+						\item What advantages do you gain from open source?
+						\item Do you treat scientific software stacks differently from other software, if so, why?
+					\end{itemize}
+				\end{minipage}
+			\end{frame}
+\end{document}
