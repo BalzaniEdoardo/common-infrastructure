@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 Gentoo Linux) (preloaded format=pdflatex 2023.5.30)  12 OCT 2023 09:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 Gentoo Linux) (preloaded format=pdflatex 2023.5.30)  12 OCT 2023 10:00
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1090,18 +1090,18 @@ Package caption Info: End \AtBeginDocument code.
  (/usr/share/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-No file slides.nav.
+(./slides.nav)
 LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+]
 runsystem(bash -c "dot -Tpdf data/_dependencies.dot -o data/_dependencies.pdf 2
 > data/_dependencies.log")...executed.
 
@@ -1109,13 +1109,13 @@ runsystem(bash -c "dot -Tpdf data/_dependencies.dot -o data/_dependencies.pdf 2
 
 pdfTeX warning: pdflatex (file ./data/_dependencies.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<data/_dependencies.pdf, id=27, 496.85625pt x 335.2525pt>
+<data/_dependencies.pdf, id=93, 496.85625pt x 335.2525pt>
 File: data/_dependencies.pdf Graphic file (type pdf)
 <use data/_dependencies.pdf>
 Package pdftex.def Info: data/_dependencies.pdf  used on input line 18.
 (pdftex.def)             Requested size: 275.76825pt x 186.07756pt.
 
-Overfull \vbox (11.28915pt too high) detected at line 18
+Overfull \vbox (14.05289pt too high) detected at line 18
  []
 
 [2
@@ -1128,7 +1128,7 @@ data/dependencies.log")...executed.
 
 pdfTeX warning: pdflatex (file ./data/dependencies.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<data/dependencies.pdf, id=47, 568.1225pt x 335.2525pt>
+<data/dependencies.pdf, id=128, 568.1225pt x 335.2525pt>
 File: data/dependencies.pdf Graphic file (type pdf)
 <use data/dependencies.pdf>
 Package pdftex.def Info: data/dependencies.pdf  used on input line 24.
@@ -1136,12 +1136,16 @@ Package pdftex.def Info: data/dependencies.pdf  used on input line 24.
 [3
 
  <./data/dependencies.pdf>]
-<img/maxdeps_s.png, id=65, 1382.16376pt x 1380.15625pt>
+<img/maxdeps_s.png, id=163, 1382.16376pt x 1380.15625pt>
 File: img/maxdeps_s.png Graphic file (type png)
 <use img/maxdeps_s.png>
 Package pdftex.def Info: img/maxdeps_s.png  used on input line 30.
 (pdftex.def)             Requested size: 175.08691pt x 174.81459pt.
- [4
+
+Overfull \vbox (2.78992pt too high) detected at line 30
+ []
+
+[4
 
  <./img/maxdeps_s.png>]
 runsystem(bash -c "dot -Tpdf data/containers.dot -o data/containers.pdf 2> data
@@ -1155,7 +1159,7 @@ Overfull \hbox (11.06697pt too wide) in paragraph at lines 42--42
 [5
 
 ]
-<img/py39.png, id=88, 1431.3475pt x 740.7675pt>
+<img/py39.png, id=219, 1431.3475pt x 740.7675pt>
 File: img/py39.png Graphic file (type png)
 <use img/py39.png>
 Package pdftex.def Info: img/py39.png  used on input line 54.
@@ -1175,31 +1179,25 @@ Package pdftex.def Info: img/py39.png  used on input line 54.
 \openout8 = `slides.snm'.
 
  (./slides.aux)
-
-Package rerunfilecheck Warning: File `slides.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `slides.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  9E0C67FE2563B2895360D4B71ADD036D;1122.
+Package rerunfilecheck Info: File `slides.out' has not changed.
+(rerunfilecheck)             Checksum: 9E0C67FE2563B2895360D4B71ADD036D;1122.
  ) 
 Here is how much of TeX's memory you used:
- 25591 strings out of 480954
- 489689 string characters out of 5908242
- 789697 words of memory out of 5000000
- 42245 multiletter control sequences out of 15000+600000
+ 25663 strings out of 480954
+ 490882 string characters out of 5908242
+ 793850 words of memory out of 5000000
+ 42315 multiletter control sequences out of 15000+600000
  442451 words of font info for 69 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 117i,15n,119p,451b,735s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 117i,19n,119p,451b,771s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc}</usr/share/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1
 /public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/t
 ex-gyre/qhvr.pfb></usr/share/texmf-dist/fonts/type1/public/tex-gyre/qhvri.pfb>
-Output written on slides.pdf (7 pages, 1461729 bytes).
+Output written on slides.pdf (7 pages, 1466102 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
+ 287 PDF objects out of 1000 (max. 8388607)
+ 171 compressed objects within 2 object streams
  21 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
