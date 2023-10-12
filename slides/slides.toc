@@ -4,4 +4,4 @@
 \beamer@sectionintoc {2}{Denial}{5}{0}{2}
 \beamer@subsectionintoc {2}{1}{Can you make this complexity go away?}{5}{0}{2}
 \beamer@sectionintoc {3}{Acceptance}{7}{0}{3}
-\beamer@subsectionintoc {3}{1}{Can you benefit from an interconnected software stack?}{7}{0}{3}
+\beamer@subsectionintoc {3}{1}{How can your work thrive in an interconnected software stack?}{7}{0}{3}

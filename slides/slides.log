@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 Gentoo Linux) (preloaded format=pdflatex 2023.5.30)  12 OCT 2023 10:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 Gentoo Linux) (preloaded format=pdflatex 2023.5.30)  12 OCT 2023 10:20
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1151,15 +1151,19 @@ Overfull \vbox (2.78992pt too high) detected at line 30
 runsystem(bash -c "dot -Tpdf data/containers.dot -o data/containers.pdf 2> data
 /containers.log")...executed.
 
- (./data/containers.log)
-Overfull \hbox (11.06697pt too wide) in paragraph at lines 42--42
- [] 
- []
 
+
+pdfTeX warning: pdflatex (file ./data/containers.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
+<data/containers.pdf, id=191, 552.0625pt x 320.19624pt>
+File: data/containers.pdf Graphic file (type pdf)
+<use data/containers.pdf>
+Package pdftex.def Info: data/containers.pdf  used on input line 42.
+(pdftex.def)             Requested size: 275.76825pt x 159.95114pt.
 [5
 
-]
-<img/py39.png, id=219, 1431.3475pt x 740.7675pt>
+ <./data/containers.pdf>]
+<img/py39.png, id=228, 1431.3475pt x 740.7675pt>
 File: img/py39.png Graphic file (type png)
 <use img/py39.png>
 Package pdftex.def Info: img/py39.png  used on input line 54.
@@ -1179,14 +1183,20 @@ Package pdftex.def Info: img/py39.png  used on input line 54.
 \openout8 = `slides.snm'.
 
  (./slides.aux)
-Package rerunfilecheck Info: File `slides.out' has not changed.
-(rerunfilecheck)             Checksum: 9E0C67FE2563B2895360D4B71ADD036D;1122.
+
+Package rerunfilecheck Warning: File `slides.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `slides.out':
+(rerunfilecheck)             Before: 9E0C67FE2563B2895360D4B71ADD036D;1122
+(rerunfilecheck)             After:  74297C3A626F44A485C3F078C5EDDB55;1163.
  ) 
 Here is how much of TeX's memory you used:
- 25663 strings out of 480954
- 490882 string characters out of 5908242
- 793850 words of memory out of 5000000
- 42315 multiletter control sequences out of 15000+600000
+ 25665 strings out of 480954
+ 490961 string characters out of 5908242
+ 794850 words of memory out of 5000000
+ 42319 multiletter control sequences out of 15000+600000
  442451 words of font info for 69 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  117i,19n,119p,451b,771s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1194,10 +1204,10 @@ Here is how much of TeX's memory you used:
 st/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1
 /public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/t
 ex-gyre/qhvr.pfb></usr/share/texmf-dist/fonts/type1/public/tex-gyre/qhvri.pfb>
-Output written on slides.pdf (7 pages, 1466102 bytes).
+Output written on slides.pdf (7 pages, 1470339 bytes).
 PDF statistics:
- 287 PDF objects out of 1000 (max. 8388607)
- 171 compressed objects within 2 object streams
+ 296 PDF objects out of 1000 (max. 8388607)
+ 177 compressed objects within 2 object streams
  21 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
 
