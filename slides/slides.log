@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 Gentoo Linux) (preloaded format=pdflatex 2023.5.30)  12 OCT 2023 10:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 Gentoo Linux) (preloaded format=pdflatex 2023.5.30)  12 OCT 2023 10:41
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1109,7 +1109,7 @@ runsystem(bash -c "dot -Tpdf data/_dependencies.dot -o data/_dependencies.pdf 2
 
 pdfTeX warning: pdflatex (file ./data/_dependencies.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<data/_dependencies.pdf, id=93, 496.85625pt x 335.2525pt>
+<data/_dependencies.pdf, id=98, 496.85625pt x 335.2525pt>
 File: data/_dependencies.pdf Graphic file (type pdf)
 <use data/_dependencies.pdf>
 Package pdftex.def Info: data/_dependencies.pdf  used on input line 18.
@@ -1128,7 +1128,7 @@ data/dependencies.log")...executed.
 
 pdfTeX warning: pdflatex (file ./data/dependencies.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<data/dependencies.pdf, id=128, 568.1225pt x 335.2525pt>
+<data/dependencies.pdf, id=135, 568.1225pt x 335.2525pt>
 File: data/dependencies.pdf Graphic file (type pdf)
 <use data/dependencies.pdf>
 Package pdftex.def Info: data/dependencies.pdf  used on input line 24.
@@ -1136,7 +1136,7 @@ Package pdftex.def Info: data/dependencies.pdf  used on input line 24.
 [3
 
  <./data/dependencies.pdf>]
-<img/maxdeps_s.png, id=163, 1382.16376pt x 1380.15625pt>
+<img/maxdeps_s.png, id=172, 1382.16376pt x 1380.15625pt>
 File: img/maxdeps_s.png Graphic file (type png)
 <use img/maxdeps_s.png>
 Package pdftex.def Info: img/maxdeps_s.png  used on input line 30.
@@ -1155,7 +1155,7 @@ runsystem(bash -c "dot -Tpdf data/containers.dot -o data/containers.pdf 2> data
 
 pdfTeX warning: pdflatex (file ./data/containers.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<data/containers.pdf, id=191, 552.0625pt x 320.19624pt>
+<data/containers.pdf, id=202, 552.0625pt x 320.19624pt>
 File: data/containers.pdf Graphic file (type pdf)
 <use data/containers.pdf>
 Package pdftex.def Info: data/containers.pdf  used on input line 42.
@@ -1163,7 +1163,7 @@ Package pdftex.def Info: data/containers.pdf  used on input line 42.
 [5
 
  <./data/containers.pdf>]
-<img/py39.png, id=228, 1431.3475pt x 740.7675pt>
+<img/py39.png, id=241, 1431.3475pt x 740.7675pt>
 File: img/py39.png Graphic file (type png)
 <use img/py39.png>
 Package pdftex.def Info: img/py39.png  used on input line 54.
@@ -1171,6 +1171,8 @@ Package pdftex.def Info: img/py39.png  used on input line 54.
  [6
 
  <./img/py39.png>] [7
+
+] [8
 
 ]
 \tf@nav=\write6
@@ -1187,10 +1189,10 @@ Package rerunfilecheck Info: File `slides.out' has not changed.
 (rerunfilecheck)             Checksum: 74297C3A626F44A485C3F078C5EDDB55;1163.
  ) 
 Here is how much of TeX's memory you used:
- 25665 strings out of 480954
- 490961 string characters out of 5908242
- 793850 words of memory out of 5000000
- 42319 multiletter control sequences out of 15000+600000
+ 25669 strings out of 480954
+ 490994 string characters out of 5908242
+ 794850 words of memory out of 5000000
+ 42321 multiletter control sequences out of 15000+600000
  442451 words of font info for 69 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  117i,19n,119p,451b,771s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1198,10 +1200,10 @@ Here is how much of TeX's memory you used:
 st/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1
 /public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/t
 ex-gyre/qhvr.pfb></usr/share/texmf-dist/fonts/type1/public/tex-gyre/qhvri.pfb>
-Output written on slides.pdf (7 pages, 1470407 bytes).
+Output written on slides.pdf (8 pages, 1471761 bytes).
 PDF statistics:
- 296 PDF objects out of 1000 (max. 8388607)
- 177 compressed objects within 2 object streams
- 21 named destinations out of 1000 (max. 500000)
+ 340 PDF objects out of 1000 (max. 8388607)
+ 200 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 500000)
  116 words of extra memory for PDF output out of 10000 (max. 10000000)
 
