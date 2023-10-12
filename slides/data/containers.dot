@@ -1,0 +1,34 @@
+digraph graphname {
+    size="10,26";
+    rankdir="TB";
+    graph [pad="0.07", fontname = "sans"];
+    node [fontname ="sans", fillcolor=grey93, style=filled, color="#BBBBBB", shape=box];
+    edge [fontname ="sans", color=gray50];
+    docker[label="Docker", fillcolor="#7DE6E6", fontcolor="#FFFFFF", color="#7DE6E6"];
+    docker_deps[label="..."];
+    docker_sqlite[label="sqlite", fillcolor="#7c53b0", color="#7c53b0", fontcolor="#FFFFFF"];
+    si[label="SpikeInterface", color="#7DE6E6"];
+    si_deps[label="..."];
+    si_sqlite[label="sqlite", fillcolor="#7c53b0", color="#7c53b0", fontcolor="#FFFFFF"];
+    dlc[label="DeepLabCut", color="#7DE6E6"];
+    dlc_deps[label="...", fillcolor=grey93];
+    dlc_sqlite[label="sqlite", fillcolor="#7c53b0", color="#7c53b0", fontcolor="#FFFFFF"];
+
+    docker -> docker_deps;
+    docker -> docker_sqlite;
+    si -> docker
+    dlc -> docker
+    subgraph cluster0 {
+        label = "Dedicated container";
+        si -> si_deps;
+        si_deps -> si_sqlite;
+    }
+    subgraph cluster1 {
+        label = "Dedicated container";
+        dlc -> dlc_deps;
+        dlc_deps -> dlc_sqlite;
+    }
+
+    #{rank=same; docker_sqlite; si_sqlite; dlc_sqlite; }
+    #{rank=same; docker_deps; si_deps; dlc_deps; }
+}
